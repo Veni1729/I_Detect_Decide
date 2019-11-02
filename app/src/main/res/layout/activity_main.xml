@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+    <!--android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp">-->
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.85in"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="24dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawablePadding="8dp"
+        android:hint="Email"
+        android:paddingTop="16dp" />
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="24dp"
+        android:textColorHint="@color/colorWhite"
+        android:drawableLeft="@drawable/ic_password_black_24dp"
+        android:drawableStart="@drawable/ic_password_black_24dp"
+        android:drawablePadding="3dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingTop="16dp" />
+
+    <CheckBox
+        android:id="@+id/showPasswordCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="0.1dp"
+        android:checked="false"
+        android:text="Show Password"
+        android:textColor="@color/colorWhite"
+        android:buttonTint="@color/colorWhite"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@android:color/white"
+        android:text="Login"
+        android:textColor="@color/colorBlue"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="24dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Not a member yet?"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="24dp"
+        android:clickable="true"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="signUpClicked"
+        android:layout_gravity="center_horizontal"
+        android:text=" Sign up here"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+    <!--Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="14dp"
+        android:background="@android:color/white"
+        android:text="Sign up"
+        android:textSize="16sp" />-->
+
+
+</LinearLayout>
