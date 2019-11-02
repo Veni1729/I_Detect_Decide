@@ -1,6 +1,6 @@
-Source Code for ML-based diagnosis of Learning Disorders
+Source Code for ML-based application for diagnosis of Learning Disorders
 
-UI Images:
+<b>UI Images:</b>
 
 <div align = "left">
   <img src = "/Screenshots/Screenshot_2019-11-02-10-17-08-953_com.example.idd.png" width = "150px" height="250px">
