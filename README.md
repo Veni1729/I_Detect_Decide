@@ -1,6 +1,6 @@
 Source Code for ML-based diagnosis of Learning Disorders
 
 <div align = "center">
-  <img src = "/Screenshots/Screenshot_2019-11-02-10-17-08-953_com.example.idd.png" width = "50px" height="100px"</img>
+  <img src = "/Screenshots/Screenshot_2019-11-02-10-17-08-953_com.example.idd.png" width = "100px" height="300px"</img>
 </div>  
 
